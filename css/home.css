@@ -51,14 +51,6 @@ body {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-
 table {
   width:100%;
 }
@@ -68,13 +60,15 @@ table, th, td {
 }
 th, td {
   padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
 /* style each columns table*/
 col.date { width: 10%;  }
-col.speaker { width: 20%;  }
-col.title { width: 80%;}
+col.speaker { width: 15%;  }
+col.title { width: 25%;}
+col.abstract { width: 60%; text-align: justify;}
 
+/* Table caption */
 caption {
   display: table-caption;
   text-align: center;
