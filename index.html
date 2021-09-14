@@ -60,6 +60,12 @@
         <td>Question answering is one of the most important and challenging tasks for understanding human language. With the help of large-scale benchmarks, state-of-the-art neural methods have made significant progress to even answer complex questions that require multiple evidence pieces. Nevertheless, training existing SOTA models requires several assumptions (e.g., intermediate evidence annotation,  corpus semi-structure) that limit the applicability to only academic testbeds. In this talk, I discuss several solutions to make current QA systems more practical.  I first describe a state-of-the-art system for complex QA with an extra hop attention in its layers to aggregate different pieces of evidence following the structure. Then I introduce a dense retrieval approach that iteratively forms an evidence chain through beam search in dense representations, without using semi-structured information. Finally, I describe a dense retrieval work that focuses on a weakly-supervised setting, by learning to find evidence from a large corpus, and relying only on distant supervision for model training. </td>
       </tr>
       <tr>
+        <td>10/09/2021</td>
+        <td>Aritra Mandal (eBay)</td>
+        <td>Using AI to Understand Search Intent</td>
+        <td>In this talk, I will explore how AI can help understand query intent in the context of ecommerce search. We will focus on two specific aspects of this problem: query categorization and query similarity. Specifically, I will describe how to train a query categorization model from engagement data and how to recognize equivalent queries using embeddings trained from search behavior.</td>
+      </tr>
+      <tr>
         <td>16/09/2021</td>
         <td>Sachin Pathiyan Cherumanal</td>
         <td>Evaluating Fairness in Argument Retrieval<div><a href="https://arxiv.org/pdf/2108.10442.pdf">Arxiv Paper</a></div></td>
@@ -67,7 +73,7 @@
       </tr>
       <tr>
         <td>23/09/2021</td>
-        <td>Laurianne Sitbon</td>
+        <td>Laurianne Sitbon (QUT)</td>
         <td>Towards Inclusive Interactions in Information Retrieval</td>
         <td>The World Wide Web of 2021 is a platform for sharing, socialising and synthesizing vast amounts of information. However, for the approximately 3% of the population with intellectual disability, access remains limited. Most people with intellectual disability (ID) have reduced abilities to digest new or complex information, requiring specific accessible design. Yet they often do not fit a neatly labeled diagnostic category, often having a combination of underlying cognitive, communicative, motor and sensory conditions. In this talk, Laurianne will present what she and her team learnt through 5 years of fieldwork, co-designing interactive information access systems with adults with intellectual disability. She will demonstrate with examples how iterative approaches that centre on people’s competencies, and recognise support networks as part of key competencies, can ensure future designs are both inclusive and respectful of individuals with intellectual disability. She will discuss opportunities for continuing research to discover how recommender systems can better support visual and multimodal interactions in people’s own terms.</td>
       </tr>
@@ -107,7 +113,7 @@
       </tr>
       <tr>
         <td>19/08/2021</td>
-        <td>Vincent Li<div><a href="https://web.microsoftstream.com/video/a8e7929c-3083-4402-887a-8a93eb8f5862">Recording</a></div></td>
+        <td>Vincent Li (Coles)<div><a href="https://web.microsoftstream.com/video/a8e7929c-3083-4402-887a-8a93eb8f5862">Recording</a></div></td>
         <td>Challenges and Learnings in Product Search</td>
         <td>Product search is a specific type of search engine adopted by online businesses to help customers find relevant products. E-commerce search, job search, or hotel search are different applications of product search. Product search problems are different from conventional web search engines in many ways. For example, in product search, the documents are usually less descriptive and more structured, which makes classical retrieval models less effective. The search intents for product search engines are usually more than finding relevant documents and the definition of relevance has multiple dimensions rather than just topical relevance. Moreover, recall and precision are both important for product search, while the ranking of the products is critical for driving the business outcomes. All these differences pose new challenges for solving the product search problems. In this talk, I will discuss the existing challenges of product search problems and share some learnings working with product search applications.</td>
       </tr>
@@ -135,13 +141,13 @@
       </tr>
       <tr>
         <td>01/07/2021</td>
-        <td>Danula Hettiachchi</td>
+        <td>Danula Hettiachchi (ADMS)</td>
         <td>The Challenge of Variable Effort Crowdsourcing <div><a href="https://arxiv.org/abs/2105.09457">Paper</a></div></td>
         <td>We consider a class of variable effort human annotation tasks in which the number of labels required per item can greatly vary (e.g., finding all faces in an image, named entities in a text, bird calls in an audio recording, etc.). In such tasks, some items require far more effort than others to annotate. Furthermore, the per-item annotation effort is not known until after each item is annotated since determining the number of labels required is an implicit part of the annotation task itself. On an image bounding-box task with crowdsourced annotators, we show that annotator accuracy and recall consistently drop as effort increases. We hypothesize reasons for this drop and investigate a set of approaches to counteract it. Firstly, we benchmark on this task a set of general best-practice methods for quality crowdsourcing. Notably, only one of these methods actually improves quality: the use of visible gold questions that provide periodic feedback to workers on their accuracy as they work. Given these promising results, we then investigate and evaluate variants of the visible gold approach, yielding further improvement. Final results show a 7% improvement in bounding-box accuracy over the baseline. We discuss the generality of the visible gold approach and promising directions for future research.</td>
       </tr>
       <tr>
         <td>08/07/2021</td>
-        <td>Xi Wang</td>
+        <td>Xi Wang (University of Glassgow)</td>
         <td>Personalised Usefulness of Reviews for Effective Recommendation</td>
         <td>Recent review-based recommenders have shown promising results in improving the recommendation performance on various public datasets. However, to make effective recommendations, it is both vital and challenging to accurately measure the usefulness of reviews. In particular, according to the literature, users have been shown to exhibit distinct preferences over different types of reviews (e.g. preferring longer vs. shorter or recent vs. old reviews). Yet, there have been limited studies that account for the personalised usefulness of reviews when estimating the users' preferences. This talk presents two consecutive studies in addressing such a research gap in the literature: 1) NCWS, a weakly supervised binary review helpfulness classifier; 2) RPRS, an end-to-end recommendation model that estimates users preferences first over the reviews exhibiting various properties and then over the items of interest.</td>
       </tr>
@@ -181,7 +187,7 @@
       </tr>
   <tr>
     <td>03/06/2021</td>
-    <td>Pablo Castells <div><a href="https://web.microsoftstream.com/video/5821d25a-c0be-438b-a0fe-55ff34575c4d">Recording</a></div></td>
+    <td>Pablo Castells (UAM) <div><a href="https://web.microsoftstream.com/video/5821d25a-c0be-438b-a0fe-55ff34575c4d">Recording</a></div></td>
     <td>Rational and irrational bias in recommendation <b>(17:00 GMT+10)</b></td>
     <td>Concern for bias in IR has grown considerably in the last few years, and recommender systems are a particular area where applications and experiments are immersed in bias. I will discuss some general angles on the biases that pervade recommendation, and what researchers are doing about it. I will follow up into some of my particular experience and findings in better understanding the effect of popularity biases on the effectiveness of recommendation and our capability to properly measure it in offline evaluation. I will discuss how the positive or negative effect of popularity in recommendation relates to the role of relevance in users' discoveries and choices, and in the formation of majorities, sometimes in non-obvious ways.</td>
   </tr>
@@ -193,7 +199,7 @@
   </tr>
   <tr>
     <td>17/06/2021</td>
-    <td>Nick Craswell<div><a href="https://web.microsoftstream.com/video/c815915e-0516-4068-977f-8271a5fd07f1">Recording</a></div></td>
+    <td>Nick Craswell (Microsoft)<div><a href="https://web.microsoftstream.com/video/c815915e-0516-4068-977f-8271a5fd07f1">Recording</a></div></td>
     <td>Comparing and deploying deep learning models for Web Search</td>
     <td>In recent years, our idea of what rankers work best in Web search has completely changed. We used to believe that boosted tree models with hand-crafted features were the best approach, but new approaches, particularly with the current BERT-style rankers, seem significantly better. How do we convince ourselves that these models are really better? What’s the process we can use in a product to deploy improvements to ML rankers? To measure them in production? How do we deal with competing goals: Clicks, positive relevance labels, higher DAU/retention? I will describe some of our public-facing research in the area, since I can talk about that freely, but also link it to how things work in development and measurement of ML models in Bing (without revealing product details).</td>
   </tr>
@@ -222,7 +228,7 @@
   </tr>
   <tr>
     <td>06/05/2021</td>
-    <td>Yongxin Xu</td>
+    <td>Yongxin Xu (Monash University)</td>
     <td> Internet searching and stock price crash risk: Evidence from a quasi-natural experiment</td>
     <td>In 2010, Google unexpectedly withdrew its searching business from China, reducing investors’ ability to find information online. The stock price crash risk for firms searched for more via Google before its withdrawal subsequently increases by 19%, suggesting that Internet searching facilitates investors’ information processing. The sensitivity of stock returns to negative Internet posts also rises by 36%. The increase in crash risk is more pronounced when firms are more likely to hide adverse information and when information intermediaries are less effective in assisting investors’ information processing. In addition, liquidity (price delay) decreases (increases) after Google's withdrawal.</td>
   </tr>
@@ -234,7 +240,7 @@
   </tr>
   <tr>
     <td>20/04/2021</td>
-    <td>Paul Thomas</td>
+    <td>Paul Thomas (Microsoft)</td>
     <td>Do affective cues validate behavioural metrics for search?</td>
     <td>Traces of searcher behaviour, such as query reformulation or clicks, are commonly used to evaluate a running search engine. The underlying expectation is that these behaviours are proxies for something more important, such as relevance, utility, or satisfaction. Affective computing technology gives us the tools to help confirm some of these expectations, by examining visceral expressive responses during search sessions. However, work to date has only studied small populations in laboratory settings and with a limited number of contrived search tasks.
 In this study, we analysed longitudinal, in-situ, search behaviours of 152 information workers, over the course of several weeks while simultaneously tracking their facial expressions. Results from over 20,000 search sessions and 45,000 queries allow us to observe that indeed affective expressions are consistent with, and complementary to, existing “click-based” metrics. On a query level, searches that result in a short dwell time are associated with a decrease in smiles (expressions of “happiness”) and that if a query is reformulated the results of the reformulation are associated with an increase in smiling – suggesting a positive outcome as people converge on the information they need. On a session level, sessions that feature reformulations are more commonly associated with fewer smiles and more furrowed brows (expressions of “anger/frustration”). Similarly, sessions with short-dwell clicks are also associated with fewer smiles. These data provide an insight into visceral aspects of search experience and present a new dimension for evaluating engine performance.
@@ -242,7 +248,7 @@ In this study, we analysed longitudinal, in-situ, search behaviours of 152 infor
   </tr>
   <tr>
     <td>27/05/2021</td>
-    <td>Romy Menghao Jia</td>
+    <td>Romy Menghao Jia (UniSA)</td>
     <td>LGBTQ+ individuals’ information seeking and sharing in an online community</td>
     <td>Individuals with LGBTQ+ identities are at risk of negative outcomes due to their highly stigmatized sexual and gender minority status. Online communities are especially important to this population group, as they provide a safe and validating space for building interpersonal connections and fostering a sense of belonging. Focused on the affective and motivational aspects of LGBTQ+ individuals’ information behaviour, our work investigates the emotions LGBTQ+ individuals expressed, and their relatedness needs that motivated them to seek and share information in an online community. Through a deductive thematic analysis of 156 posts to an LGBTQ+ online forum, our analysis reveals three main categories of relatedness needs: being cared about, caring for others, as well as building and maintaining relationships. Sixty-one posts that contained emotional texts were further coded to analyse the emotions expressed by LGBTQ+ individuals. Seven categories of emotions emerged from the analysis: fear, uncertainty, sadness, anger, shame, joy, and others. Our work contributes to the existing knowledge of how LGBTQ+ individuals cope with various challenges and how online communities can better support sexual and gender minority people. Future work will investigate the influence of their information behaviour on their resilience and affordances implications for LGBTQ+ online community design. </td>
   </tr>
@@ -314,7 +320,7 @@ We believe that a better understanding of question categories of non-factoid que
       </tr>
       <tr>
         <td>03/03/2021</td>
-        <td>Rosie Jones</td>
+        <td>Rosie Jones (Spotify)</td>
         <td>Research on Podcasts at Spotify</td>
         <td>Podcasts are a large and growing repository of spoken audio. As an audio format, podcasts are more varied in style and production type than broadcast news, contain more genres than typically studied in video data, and are more varied in style and format than previous corpora of conversations. When transcribed with automatic speech recognition they represent a noisy but fascinating collection of documents which can be studied through the lens of natural language processing, information retrieval, and linguistics. Paired with the audio files, they are also a resource for speech processing and the study of acoustic aspects of the domain. We introduce the Spotify Podcast Dataset, a new corpus of 100,000 podcasts. We demonstrate the complexity of the domain with a case study of two tasks drawn from information retrieval and NLP: (1) passage search and (2) summarization. This data is orders of magnitude larger than previous speech corpora used for search and summarization. Our results show that the size and variability of this corpus opens up new avenues for research. I’ll discuss some of those avenues, as well as giving a brief overview of research on podcasts and music at Spotify.</td>
       </tr>
@@ -332,7 +338,7 @@ We believe that a better understanding of question categories of non-factoid que
       </tr>
       <tr>
         <td>25/03/2021</td>
-        <td>Yuta Saito</td>
+        <td>Yuta Saito (Tokyo Institute of Technology)</td>
         <td>Towards Realistic and Reproducible Off-Policy Evaluation: Open-Source Dataset, Software, and Application in Fashion E-Commerce Recommendation</td>
         <td>There is a growing interest in off-policy evaluation (OPE) or offline evaluation in web search and data mining; we have witnessed great research progress over the past decade. There is, however, a critical issue in the current OPE research; all existing experiments are either unrealistic or irreproducible, creating the gap between theory and practice. To break this gap and push forward OPE to a tangible method, we are running an open-source research project called the Open Bandit Project. The project includes Open Bandit Dataset and Open Bandit Pipeline. The Open Bandit Dataset is a real-world public dataset collected on the ZOZOTOWN platform, the largest fashion e-commerce in Japan. The dataset is unique; it contains two sets of log data collected by running multiple different recommendation policies, enabling fair comparisons of different OPE methods for the first time. We also implement a Python software, Open Bandit Pipeline, to streamline and standardize the implementation of OPE both in research and practice. In this talk, I will share the basic formulation and discuss current issues in OPE research. Then, I will introduce our open-source project and show a proof of concept live demonstration about OPE with our software. Finally, I will talk about some real-world applications in the ZOZOTOWN recommendation interface.</td>
       </tr>
