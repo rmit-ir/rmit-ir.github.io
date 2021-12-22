@@ -6,3 +6,6 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+#text processing abstracts
+abstracts2021.txt
+word_count.py
