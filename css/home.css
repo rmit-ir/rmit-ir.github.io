@@ -29,8 +29,8 @@ body {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  -ms-flex: 20%; /* IE10 */
-  flex: 20%;
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
   text-align: justify;
@@ -39,7 +39,7 @@ body {
 
 /* Main column */
 .main {
-  flex: 80%;
+  flex: 70%;
   background-color: white;
   padding: 20px;
 }
@@ -84,6 +84,14 @@ caption {
 /* Tiger image*/
 .tigerimg {
   height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Wordcloud image*/
+.wordcloudimg {
+  height:250px;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;

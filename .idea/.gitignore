@@ -7,5 +7,9 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 #text processing abstracts
+titles2021.txt
 abstracts2021.txt
 word_count.py
+word_counts.txt
+word_counts.tsv
+word_counts2.txt
